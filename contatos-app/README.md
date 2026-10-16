@@ -83,7 +83,7 @@ O navegador só conversa com `localhost:5173`. O Vite repassa `/api` e `/sanctum
 ### 4.1 Clonar
 
 ```bash
-git clone <URL-DO-REPOSITORIO> contatos-app
+git clone <https://github.com/LipeGrandotto/Sistema_Login_Contatos_TempoReal.git> contatos-app
 cd contatos-app
 ```
 
