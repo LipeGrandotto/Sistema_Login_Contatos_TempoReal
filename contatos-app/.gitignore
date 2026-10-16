@@ -1,0 +1,22 @@
+# Dependências (reinstaladas com composer install / npm install)
+node_modules/
+backend/vendor/
+
+# Segredos e ambiente local (use os .env.example como modelo)
+.env
+.env.*
+!.env.example
+
+# Builds
+frontend/dist/
+
+# Banco e logs locais
+backend/database/*.sqlite*
+backend/database/*.sqlite-journal
+backend/storage/logs/*.log
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
